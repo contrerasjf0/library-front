@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Naboo Library</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+
+          <!-- inject:css -->
+          <link rel="stylesheet" href="/assets/css/style.css">
+          <!-- endinject -->
+        
+        
+        
+        <!--<link href="./assets/css/style.css" rel="stylesheet">-->
+        <!--<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    </head>
+    <body>
+        <div class="library">
+           <div class="container-fluid library">
+
+                <header class="row header">
+                    <div class="col header__content">
+                        <nav class="navbar navbar-toggleable-md navbar-light header__nav">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <a class="navbar-brand mb-0" href="#">
+                            <img src="./assets/img/book64x64.png" alt="logo" class="header__nav-icon">
+                            Naboo Library
+                        </a>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.planetadelibros.com/coleccion-star-wars-novelas/0NOVELAS.W" target="_blank">Planet Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">New books</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <section class=" row body  d-flex  flex-column justify-content-center align-items-center">
+                    <div class="body__carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active carousel__item ">
+                              <img class="d-block img-fluid" src="./assets/img/carousel/img1.jpg" alt="First slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>Come and meet us</h3>
+                              </div>
+                            </div>
+                            <div class="carousel-item carousel__item">
+                              <img class="d-block img-fluid" src="./assets/img/carousel/img2.jpg" alt="Second slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>We have the best books</h3>
+                                
+                              </div>
+                            </div>
+                            <div class="carousel-item carousel__item">
+                              <img class="d-block img-fluid" src="./assets/img/carousel/img3.jpg" alt="Third slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>Read open your mind</h3>
+                               
+                              </div>                                
+                            </div>
+                            <div class="carousel-item carousel__item">
+                            <img class="d-block img-fluid" src="./assets/img/carousel/img4.jpg" alt="Fourt slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>Imagine with us</h3>
+                                
+                              </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="body__sections">
+                        <div class="row sections__discribe">
+                             <div class="col-6 offset-md-1 sections__describe-text">
+                                <h2>About us</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis sem nec laoreet elementum. 
+                                Nam consectetur fringilla leo, et sodales purus hendrerit at. Ut rhoncus nisi urna, eget volutpat metus porttitor bibendum. 
+                                Etiam sodales dictum ante, id iaculis neque convallis et. Duis sit amet justo cursus, molestie arcu ut, vestibulum mauris. 
+                                Nunc ultricies varius pretium. Duis dapibus at urna sodales pellentesque. Nunc ligula mauris, fringilla in ipsum ut, commodo posuere quam. 
+                                Aliquam at mattis sem. Sed purus augue, fringilla ac enim nec, accumsan pulvinar tellus. Etiam non dui commodo ipsum iaculis faucibus in non neque. 
+                                Nam risus odio, porttitor eu cursus eget, mattis at eros. Vestibulum varius risus eget risus venenatis consequat. 
+                                Etiam tortor neque, porttitor vitae laoreet sed, mollis sit amet nibh. </p>
+                            </div>
+                            <div class="col-4">
+                                <div class="sections__discribe-image">
+                                    <img src="./assets/img/inside.jpg" alt="inside library">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row section__new-books">
+
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <div class="card" style="width: 20rem;">
+                                            <img class="card-img-top" src="./assets/img/card.svg" alt="Card image cap">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Book 1</h4>
+                                                <p class="card-text">Quisque quis ex orci. Integer imperdiet nibh vel nulla dapibus, a sollicitudin urna faucibus.</p>
+                                                <a href="#" class="btn btn-primary">Buy</a>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 20rem;">
+                                            <img class="card-img-top" src="./assets/img/card.svg" alt="Card image cap">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Book 2</h4>
+                                                <p class="card-text">Sed sit amet dictum quam. Morbi eu enim at nulla facilisis scelerisque. </p>
+                                                <a href="#" class="btn btn-primary">Buy</a>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 20rem;">
+                                            <img class="card-img-top" src="./assets/img/card.svg" alt="Card image cap">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Book 3</h4>
+                                                <p class="card-text">Donec ac odio eros. Aenean blandit varius neque, eget pellentesque nunc mollis sit amet.</p>
+                                                <a href="#" class="btn btn-primary">Buy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card" style="width: 20rem;">
+                                            <img class="card-img-top" src="./assets/img/card.svg" alt="Card image cap">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Book 4</h4>
+                                                <p class="card-text">Sed ac risus efficitur, porta lacus et, aliquam elit. Aliquam erat volutpat.</p>
+                                                <a href="#" class="btn btn-primary">Buy</a>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 20rem;">
+                                            <img class="card-img-top" src="./assets/img/card.svg" alt="Card image cap">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Book 5</h4>
+                                                <p class="card-text">Duis nec porttitor orci. Nulla et eros cursus, dictum justo sit amet, sodales metus.</p>
+                                                <a href="#" class="btn btn-primary">Buy</a>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 20rem;">
+                                            <img class="card-img-top" src="./assets/img/card.svg" alt="Card image cap">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Book 6</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet finibus nisl. </p>
+                                                <a href="#" class="btn btn-primary">Buy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                                                        
+                            
+                        </div>
+                    </div>
+                </section>
+                <footer class="row footer pt-3 pb-3">
+                    <div class="col d-flex align-items-center">
+                        <div class="footer__content-logo">
+                            <img src="./assets/img/book64x64.png" alt="logo" class="header__nav-icon">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer__content-data">
+                            <p class="footer__content-data__paragraph">
+                                <span class="footer__content-data__text"> <i class="fa fa-university" aria-hidden="true"></i> Address: </span>
+                                <span class="footer__content-data__text"> 7635 N La Cholla Blvd Tucson, AZ , United States </span>
+                                <span class="footer__content-data__text"> <i class="fa fa-phone-square" aria-hidden="true"></i> Phone: </span>
+                                <span class="footer__content-data__text">123-456-78-98</span>
+                                <span class="footer__content-data__text"><i class="fa fa-envelope" aria-hidden="true"></i> Email: </span>
+                                <span class="footer__content-data__text">naboolibrary@gmail.com</span>
+                                <span class="footer__content-data__text">Terms and conditions</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col footer__content-social">
+                        <span class="footer__content-social__icons">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </span>
+                        <span class="footer__content-social__icons">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </span>
+                        <span class="footer__content-social__icons">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </footer>
+
+
+            </div>
+        </div>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/tether/dist/js/tether.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,178 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+
+.library{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    color: #283c63;
+    background-color: #fbe8d3;
+}
+
+.navbar-brand{
+
+    & > img{
+        height: 64px;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        width: 64px;
+
+        &:hover{
+            margin-left: -10px;
+            height: 68px;
+            width: 68px;
+        }
+    }
+}
+
+.header__content{
+    padding: 0px;
+}
+
+.header__nav{
+    .header__nav-icon{
+        height: 64px;
+        width: 64px;
+        margin: 0px 10px;
+    }
+}
+
+
+
+.body{
+    background-color: #f85f73; 
+    padding: 0px; 
+    padding-bottom: 2%;
+}
+
+.body__carousel{
+    width: 100%;
+}
+
+.body__sections{
+    margin-top: 2%;
+}
+
+.carousel{
+    width: 100%;
+}
+.carousel__item{
+    height: 400px; 
+    width: 100%;
+
+    > img{
+       
+       width: 100%; 
+    }
+}
+
+.sections__discribe{
+    width: 100%;
+    .sections__describe-text{
+        text-align : justify;
+    }
+    .sections__discribe-image{
+         position: relative;
+
+        & > img{
+            border-radius: 10%;
+            float: left;
+            margin: 2%;
+            -webkit-transition: margin 0.5s ease-out;
+            -moz-transition: margin 0.5s ease-out;
+            -ms-transition: margin 0.5s ease-out;
+            transition: margin 0.5s ease-out;
+            
+            &:hover{
+                margin-top: -3%;
+            }
+        } 
+    }
+}
+
+.sections__new-book{
+    /*margin: 5px 0px;*/
+}
+.footer{
+    color: #fbe8d3;
+    background-color: #283c63;
+
+    .footer__content-logo{
+        margin-left: 10%;
+    }
+
+    .footer__content-data{
+        font-size: 0.8em;
+            .footer__content-data__paragraph{
+                display:flex;
+                flex-direction: column;
+                 justify-content: center;
+                 align-content: space-between;
+                 
+                .footer__content-data__text{
+                    display:block;
+                    text-align: center;
+                    margin: 1px 0px;
+                }
+            }
+    
+    }
+
+    .footer__content-social{
+          align-items: center;
+          display: flex;
+         justify-content: center;
+         
+
+        .footer__content-social__icons{
+            display: block;
+            font-size: 2em;
+            margin: 0px 5%;
+            cursor: pointer;
+
+            &:hover{
+                color: #f85f73; 
+            }
+        }
+
+    }
+    
+}
+
+
+.section__new-books{
+    width: 100%;
+    .carousel{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .carousel-inner{ 
+        margin: auto; 
+        width: 90%; 
+    }
+    .carousel-control{ 
+        width:  4%; 
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+     width: 8%;
+    }
+    .carousel-item {
+        > .card{
+            margin: 0px 20px;
+             p{
+                height: 100px;
+             }
+
+            &:first-child{
+                margin-left: 2%;
+            }
+        }
+    }
+
+} 

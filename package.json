@@ -1,0 +1,26 @@
+{
+  "name": "library-front",
+  "version": "1.0.0",
+  "description": "test of fornt",
+  "main": "index.js",
+  "author": "ContrerasJF",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp start",
+    "dev": "gulp"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
+    "gulp-rename": "^1.2.2",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
